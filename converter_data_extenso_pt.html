@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter data para formato extenso em pt</title>
+    <script src="js/converter_data_extenso_pt.js"></script>
+    <style>
+        .input{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CONVERTER DATA PARA FORMATO EXTENSO EM PORTUGUÊS</h1>
+        <div class="input">
+            <label for="data">Introduza a data:</label>
+            <input type='date' name='data' value='' size='15px' id='data' onchange='dataconverter();'>
+        </div>  
+        <div class="input">
+            <label for="data_extenso">Data convertida:</label>
+            <input type='text' name='data_extenso' value='' size='30px' id='data_extenso'>
+        </div>  
+</body>
+</html>
